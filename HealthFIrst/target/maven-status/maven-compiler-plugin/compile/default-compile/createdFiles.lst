@@ -1,0 +1,5 @@
+pageobject/MemberLogInPage.class
+pageobject/MemberSignUpPage.class
+pageobject/Login.class
+pageobject/HomePage.class
+pageobject/ProviderLogInPage.class

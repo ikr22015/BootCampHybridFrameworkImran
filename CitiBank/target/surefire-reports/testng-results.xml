@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Citi Bank test" duration-ms="3" started-at="2018-01-26T00:38:27Z" finished-at="2018-01-26T00:38:27Z">
+    <groups>
+    </groups>
+    <test name="CitiBank Home" duration-ms="3" started-at="2018-01-26T00:38:27Z" finished-at="2018-01-26T00:38:27Z">
+    </test> <!-- CitiBank Home -->
+  </suite> <!-- Citi Bank test -->
+</testng-results>

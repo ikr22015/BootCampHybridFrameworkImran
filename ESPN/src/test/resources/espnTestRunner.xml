@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ESPN test" parallel="false">
+    <test name="ESPN Automation">
+        <parameter name="operating_system" value="OS X"/>
+        <parameter name="browser_name" value="Firefox"/>
+        <parameter name="URL" value="http://www.espn.com/"/>
+        <classes>
+            <!--<class name="testcses.TestHomePage"/>-->
+        </classes>
+    </test>
+</suite>

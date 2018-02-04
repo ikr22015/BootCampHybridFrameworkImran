@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [ESPN test]">
+  <test name="ESPN Automation(failed)">
+    <parameter name="browser_name" value="Firefox"/>
+    <parameter name="operating_system" value="OS X"/>
+    <parameter name="URL" value="http://www.espn.com/"/>
+    <classes>
+      <class name="testcses.TestHomePage">
+        <methods>
+          <include name="login"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- testcses.TestHomePage -->
+    </classes>
+  </test> <!-- ESPN Automation(failed) -->
+</suite> <!-- Failed suite [ESPN test] -->
