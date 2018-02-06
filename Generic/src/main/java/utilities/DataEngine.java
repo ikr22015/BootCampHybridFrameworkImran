@@ -40,7 +40,7 @@ public class DataEngine extends CommonAPI{
         }
     }
 
-    public void performActionn(String keyword, String locatorType, String locatorValue){
+    public void performAction(String keyword, String locatorType, String locatorValue){
         switch (keyword){
             case "Click":
                 driver.findElement(getElementLocator(locatorType,locatorValue)).click();

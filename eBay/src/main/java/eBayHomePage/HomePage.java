@@ -14,12 +14,21 @@ public class HomePage{
         GoogleSheetAPI sheetAPI = new GoogleSheetAPI();
         List<List<Object>> rows = sheetAPI.getSpreadSheetRecords(spreadsheetId, range);
 
-        for (List<Object> column : rows) {
-            String keyword = column.get(2).toString();
-            String locatorType = column.get(3).toString();
-            String locatorValue = column.get(4).toString();
-            String testData = column.get(5).toString();
-            dataEngine.performAction(keyword,locatorType,locatorValue,testData);
+        try {
+            for (List<Object> column : rows) {
+                String keyword = column.get(2).toString();
+                String locatorType = column.get(3).toString();
+                String locatorValue = column.get(4).toString();
+                String testData = column.get(5).toString();
+                dataEngine.performAction(keyword,locatorType,locatorValue,testData);
+            }
+        }catch (Exception e){
+            for (List<Object> column : rows) {
+                String keyword = column.get(2).toString();
+                String locatorType = column.get(3).toString();
+                String locatorValue = column.get(4).toString();
+                dataEngine.performAction(keyword,locatorType,locatorValue);
+            }
         }
     }
 }
