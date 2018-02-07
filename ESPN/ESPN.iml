@@ -85,6 +85,11 @@
     <orderEntry type="library" name="Maven: org.mortbay.jetty:jetty-util:6.1.26" level="project" />
     <orderEntry type="library" name="Maven: org.mortbay.jetty:servlet-api:2.5-20081211" level="project" />
     <orderEntry type="library" name="Maven: com.google.apis:google-api-services-sheets:v4-rev483-1.22.0" level="project" />
+    <orderEntry type="library" name="Maven: com.aventstack:extentreports:3.0.7" level="project" />
+    <orderEntry type="library" name="Maven: org.freemarker:freemarker:2.3.23" level="project" />
+    <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.9.2" level="project" />
+    <orderEntry type="library" name="Maven: com.relevantcodes:extentreports:2.41.1" level="project" />
+    <orderEntry type="library" name="Maven: org.xerial:sqlite-jdbc:3.8.11.1" level="project" />
     <orderEntry type="library" name="Maven: io.rest-assured:rest-assured:3.0.3" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy:2.4.9" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-xml:2.4.9" level="project" />

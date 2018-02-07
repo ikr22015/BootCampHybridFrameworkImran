@@ -6,7 +6,7 @@
         <parameter name="browser_name" value="Firefox"/>
         <parameter name="URL" value="http://www.espn.com/"/>
         <classes>
-            <!--<class name="testcses.TestHomePage"/>-->
+            <class name="testcses.TestHomePage"/>
         </classes>
     </test>
 </suite>

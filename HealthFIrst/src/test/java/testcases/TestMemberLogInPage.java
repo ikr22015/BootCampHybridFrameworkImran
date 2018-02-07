@@ -5,11 +5,13 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pageobject.HomePage;
 import pageobject.MemberLogInPage;
+import reporting.TestLogger;
 import utilities.ReadExcelFile;
 
 public class TestMemberLogInPage extends MemberLogInPage{
     @Test(dataProvider = "testdata")
     public void testMemberLogIn(String username, String password)throws InterruptedException{
+        TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         HomePage hp = PageFactory.initElements(driver,HomePage.class);
         hp.goToMemberLogin();
 

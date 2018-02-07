@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 import pageobject.HomePage;
+import reporting.TestLogger;
 
 public class TestHomePage extends CommonAPI{
     @Test

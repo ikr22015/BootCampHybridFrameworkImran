@@ -14,9 +14,9 @@
     <test name = "Health First Home">
         <classes>
             <class name="testcases.TestHomePage"/>
-            <!--<class name="testcases.TestMemberLogInPage"/>-->
-            <!--<class name="testcases.TestMemberSignUp"/>-->
-            <!--<class name="testcases.TestProviderligInPage"/>-->
+            <class name="testcases.TestMemberLogInPage"/>
+            <class name="testcases.TestMemberSignUp"/>
+            <class name="testcases.TestProviderligInPage"/>
         </classes>
     </test>
 

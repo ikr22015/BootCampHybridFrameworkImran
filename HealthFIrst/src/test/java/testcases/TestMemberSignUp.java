@@ -6,10 +6,12 @@ import org.testng.annotations.Test;
 import pageobject.HomePage;
 import pageobject.MemberLogInPage;
 import pageobject.MemberSignUpPage;
+import reporting.TestLogger;
 
 public class TestMemberSignUp extends CommonAPI{
     @Test
     public void testMemberSignUp(){
+        TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         HomePage hp = PageFactory.initElements(driver,HomePage.class);
         hp.goToMemberLogin();
 

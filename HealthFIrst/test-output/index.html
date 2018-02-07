@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Health_First_Automation_test">
+              <span class="suite-name border-passed">Health First Automation test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Health_First_Automation_test">
+                    <span>healthFirstTestRunner.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Health_First_Automation_test">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Health_First_Automation_test">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Health_First_Automation_test">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Health_First_Automation_test">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Health_First_Automation_test">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Health_First_Automation_test">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Health_First_Automation_test" class="hide-methods passed suite-Health_First_Automation_test"> (hide)</a> <!-- hide-methods passed suite-Health_First_Automation_test -->
+                      <a href="#" panel-name="suite-Health_First_Automation_test" class="show-methods passed suite-Health_First_Automation_test"> (show)</a> <!-- show-methods passed suite-Health_First_Automation_test -->
+                    </span>
+                    <div class="method-list-content passed suite-Health_First_Automation_test">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Health_First_Automation_test" title="testcases.TestHomePage" hash-for-method="testLangChangeEnglishToChinese">testLangChangeEnglishToChinese</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Health_First_Automation_test" title="testcases.TestMemberLogInPage" hash-for-method="testMemberLogIn(nafee@gmail.com, wewi1)">testMemberLogIn(nafee@gmail.com, wewi1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Health_First_Automation_test" title="testcases.TestMemberLogInPage" hash-for-method="testMemberLogIn(urbana@yahoo.com, 1212ksk)">testMemberLogIn(urbana@yahoo.com, 1212ksk)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Health_First_Automation_test" title="testcases.TestMemberLogInPage" hash-for-method="testMemberLogIn(imran@gmail.con, abc123)">testMemberLogIn(imran@gmail.con, abc123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Health_First_Automation_test" title="testcases.TestMemberLogInPage" hash-for-method="testMemberLogIn(ehsan@hotmail.com, 123asd)">testMemberLogIn(ehsan@hotmail.com, 123asd)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Health_First_Automation_test" title="testcases.TestMemberSignUp" hash-for-method="testMemberSignUp">testMemberSignUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Health_First_Automation_test" title="testcases.TestProviderligInPage" hash-for-method="testProviderLogIn">testProviderLogIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Health_First_Automation_test" title="testcases.TestHomePage" hash-for-method="testSearch">testSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Health_First_Automation_test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Health_First_Automation_test" class="panel Health_First_Automation_test">
+          <div class="suite-Health_First_Automation_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TestMemberLogInPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMemberLogIn(nafee@gmail.com, wewi1)">
+                  </a> <!-- testMemberLogIn(nafee@gmail.com, wewi1) -->
+                  <span class="method-name">testMemberLogIn</span>
+                  <span class="parameters">(nafee@gmail.com, wewi1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMemberLogIn(urbana@yahoo.com, 1212ksk)">
+                  </a> <!-- testMemberLogIn(urbana@yahoo.com, 1212ksk) -->
+                  <span class="method-name">testMemberLogIn</span>
+                  <span class="parameters">(urbana@yahoo.com, 1212ksk)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMemberLogIn(imran@gmail.con, abc123)">
+                  </a> <!-- testMemberLogIn(imran@gmail.con, abc123) -->
+                  <span class="method-name">testMemberLogIn</span>
+                  <span class="parameters">(imran@gmail.con, abc123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMemberLogIn(ehsan@hotmail.com, 123asd)">
+                  </a> <!-- testMemberLogIn(ehsan@hotmail.com, 123asd) -->
+                  <span class="method-name">testMemberLogIn</span>
+                  <span class="parameters">(ehsan@hotmail.com, 123asd)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Health_First_Automation_test-class-passed -->
+          <div class="suite-Health_First_Automation_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TestMemberSignUp</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMemberSignUp">
+                  </a> <!-- testMemberSignUp -->
+                  <span class="method-name">testMemberSignUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Health_First_Automation_test-class-passed -->
+          <div class="suite-Health_First_Automation_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TestProviderligInPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProviderLogIn">
+                  </a> <!-- testProviderLogIn -->
+                  <span class="method-name">testProviderLogIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Health_First_Automation_test-class-passed -->
+          <div class="suite-Health_First_Automation_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TestHomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLangChangeEnglishToChinese">
+                  </a> <!-- testLangChangeEnglishToChinese -->
+                  <span class="method-name">testLangChangeEnglishToChinese</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearch">
+                  </a> <!-- testSearch -->
+                  <span class="method-name">testSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Health_First_Automation_test-class-passed -->
+        </div> <!-- panel Health_First_Automation_test -->
+        <div panel-name="test-xml-Health_First_Automation_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/imrankabir/IdeaProjects/BootCampFrameworkTeam7/HealthFIrst/src/test/resources/healthFirstTestRunner.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Health First Automation test&quot;&gt;
+  &lt;parameter name=&quot;browser_name&quot; value=&quot;Firefox&quot;/&gt;
+  &lt;parameter name=&quot;useCloudEnv&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;os_version&quot; value=&quot;High Sierra&quot;/&gt;
+  &lt;parameter name=&quot;browserVersion&quot; value=&quot;57.0&quot;/&gt;
+  &lt;parameter name=&quot;operating_system&quot; value=&quot;OS X&quot;/&gt;
+  &lt;parameter name=&quot;cloudEnvName&quot; value=&quot;Browserstack&quot;/&gt;
+  &lt;parameter name=&quot;URL&quot; value=&quot;https://healthfirst.org/&quot;/&gt;
+  &lt;test name=&quot;Health First Home&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.TestHomePage&quot;/&gt;
+      &lt;class name=&quot;testcases.TestMemberLogInPage&quot;/&gt;
+      &lt;class name=&quot;testcases.TestMemberSignUp&quot;/&gt;
+      &lt;class name=&quot;testcases.TestProviderligInPage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Health First Home --&gt;
+&lt;/suite&gt; &lt;!-- Health First Automation test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Health_First_Automation_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Health First Automation test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Health First Home (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Health_First_Automation_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Health First Automation test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Health_First_Automation_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Health First Automation test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Health_First_Automation_test');
+function tableData_Health_First_Automation_test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testMemberSignUp')
+data.setCell(0, 2, 'testcases.TestMemberSignUp')
+data.setCell(0, 3, 11628);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testMemberLogIn')
+data.setCell(1, 2, 'testcases.TestMemberLogInPage')
+data.setCell(1, 3, 8998);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testMemberLogIn')
+data.setCell(2, 2, 'testcases.TestMemberLogInPage')
+data.setCell(2, 3, 7228);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testMemberLogIn')
+data.setCell(3, 2, 'testcases.TestMemberLogInPage')
+data.setCell(3, 3, 6113);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testProviderLogIn')
+data.setCell(4, 2, 'testcases.TestProviderligInPage')
+data.setCell(4, 3, 5361);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testMemberLogIn')
+data.setCell(5, 2, 'testcases.TestMemberLogInPage')
+data.setCell(5, 3, 5174);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testSearch')
+data.setCell(6, 2, 'testcases.TestHomePage')
+data.setCell(6, 3, 2078);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testLangChangeEnglishToChinese')
+data.setCell(7, 2, 'testcases.TestHomePage')
+data.setCell(7, 3, 479);
+window.suiteTableData['Health_First_Automation_test']= { tableData: data, tableDiv: 'times-div-Health_First_Automation_test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 47 seconds</span>
+              <div id="times-div-Health_First_Automation_test">
+              </div> <!-- times-div-Health_First_Automation_test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Health_First_Automation_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Health First Automation test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMemberLogIn(nafee@gmail.com, wewi1)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestMemberLogInPage: test Member Log In</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testProviderLogIn</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestProviderligInPage: test Provider Log In</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMemberLogIn(urbana@yahoo.com, 1212ksk)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestMemberLogInPage: test Member Log In</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMemberLogIn(imran@gmail.con, abc123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestMemberLogInPage: test Member Log In</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMemberLogIn(ehsan@hotmail.com, 123asd)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestMemberLogInPage: test Member Log In</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMemberSignUp</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestMemberSignUp: test Member Sign Up</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testLangChangeEnglishToChinese</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test Lang Change English To Chinese</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testSearch</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test Search</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Health_First_Automation_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.TestMemberLogInPage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+                <span class="ignored-method-name">extentSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.TestMemberSignUp</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+                <span class="ignored-method-name">extentSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.TestProviderligInPage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+                <span class="ignored-method-name">extentSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Health_First_Automation_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TestHomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">extentSetup(org.testng.TestRunner@412c995d)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, Browserstack, OS X, High Sierra, Firefox, 57.0, https://healthfirst.org/)</span>
+                <span class="method-start">407 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestHomePage.testLangChangeEnglishToChinese())</span>
+                <span class="method-start">12698 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLangChangeEnglishToChinese</span>
+                <span class="method-start">12710 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testLangChangeEnglishToChinese status=SUCCESS method=TestHomePage.testLangChangeEng...)</span>
+                <span class="method-start">13190 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">14002 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, Browserstack, OS X, High Sierra, Firefox, 57.0, https://healthfirst.org/)</span>
+                <span class="method-start">14003 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestHomePage.testSearch())</span>
+                <span class="method-start">23978 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearch</span>
+                <span class="method-start">23979 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testSearch status=SUCCESS method=TestHomePage.testSearch()[pri:0, instance:testcase...)</span>
+                <span class="method-start">26057 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">26357 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TestMemberLogInPage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, Browserstack, OS X, High Sierra, Firefox, 57.0, https://healthfirst.org/)</span>
+                <span class="method-start">27217 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestMemberLogInPage.testMemberLogIn(java.lang.String,java.lang.String) throws ...)</span>
+                <span class="method-start">37194 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMemberLogIn(imran@gmail.con, abc123)</span>
+                <span class="method-start">37195 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testMemberLogIn status=SUCCESS method=TestMemberLogInPage.testMemberLogIn(java.lang...)</span>
+                <span class="method-start">44425 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, Browserstack, OS X, High Sierra, Firefox, 57.0, https://healthfirst.org/)</span>
+                <span class="method-start">44862 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">44862 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestMemberLogInPage.testMemberLogIn(java.lang.String,java.lang.String) throws ...)</span>
+                <span class="method-start">54749 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMemberLogIn(ehsan@hotmail.com, 123asd)</span>
+                <span class="method-start">54750 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testMemberLogIn status=SUCCESS method=TestMemberLogInPage.testMemberLogIn(java.lang...)</span>
+                <span class="method-start">59924 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">60369 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, Browserstack, OS X, High Sierra, Firefox, 57.0, https://healthfirst.org/)</span>
+                <span class="method-start">60370 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestMemberLogInPage.testMemberLogIn(java.lang.String,java.lang.String) throws ...)</span>
+                <span class="method-start">74521 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMemberLogIn(urbana@yahoo.com, 1212ksk)</span>
+                <span class="method-start">74521 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testMemberLogIn status=SUCCESS method=TestMemberLogInPage.testMemberLogIn(java.lang...)</span>
+                <span class="method-start">80635 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">80934 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, Browserstack, OS X, High Sierra, Firefox, 57.0, https://healthfirst.org/)</span>
+                <span class="method-start">80935 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestMemberLogInPage.testMemberLogIn(java.lang.String,java.lang.String) throws ...)</span>
+                <span class="method-start">93538 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMemberLogIn(nafee@gmail.com, wewi1)</span>
+                <span class="method-start">93538 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testMemberLogIn status=SUCCESS method=TestMemberLogInPage.testMemberLogIn(java.lang...)</span>
+                <span class="method-start">102536 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">102800 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TestMemberSignUp</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, Browserstack, OS X, High Sierra, Firefox, 57.0, https://healthfirst.org/)</span>
+                <span class="method-start">102801 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestMemberSignUp.testMemberSignUp())</span>
+                <span class="method-start">113495 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMemberSignUp</span>
+                <span class="method-start">113496 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testMemberSignUp status=SUCCESS method=TestMemberSignUp.testMemberSignUp()[pri:0, i...)</span>
+                <span class="method-start">125124 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">125404 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TestProviderligInPage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, Browserstack, OS X, High Sierra, Firefox, 57.0, https://healthfirst.org/)</span>
+                <span class="method-start">125405 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testcases.TestProviderligInPage.testProviderLogIn() throws java.io.IOException)</span>
+                <span class="method-start">132797 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testProviderLogIn</span>
+                <span class="method-start">132797 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testProviderLogIn status=SUCCESS method=TestProviderligInPage.testProviderLogIn()[p...)</span>
+                <span class="method-start">138159 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">138432 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TestHomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">generateReport</span>
+                <span class="method-start">138456 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

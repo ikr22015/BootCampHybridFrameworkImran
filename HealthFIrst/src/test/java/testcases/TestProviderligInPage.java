@@ -5,6 +5,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 import pageobject.HomePage;
 import pageobject.ProviderLogInPage;
+import reporting.TestLogger;
 import utilities.GoogleSheetAPI;
 
 import java.io.IOException;
@@ -16,6 +17,7 @@ public class TestProviderligInPage extends CommonAPI{
 
     @Test
     public void testProviderLogIn()throws IOException {
+        TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         GoogleSheetAPI sheetAPI = new GoogleSheetAPI();
         List<List<Object>> values = sheetAPI.getSpreadSheetRecords(spreadsheetId, range);
 
