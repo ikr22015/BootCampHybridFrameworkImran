@@ -12,6 +12,7 @@
         <module name="ESPN" />
         <module name="Generic" />
         <module name="HealthFIrst" />
+        <module name="RestAPI" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +23,7 @@
       <module name="ESPN" target="1.7" />
       <module name="Generic" target="1.8" />
       <module name="HealthFIrst" target="1.7" />
+      <module name="RestAPI" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

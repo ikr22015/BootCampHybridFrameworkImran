@@ -10,13 +10,14 @@
   <parameter name="URL" value="https://healthfirst.org/"/>
   <test name="Health First Home(failed)">
     <classes>
-      <class name="testcases.TestProviderligInPage">
+      <class name="testcases.TestHomePage">
         <methods>
-          <include name="testProviderLogIn"/>
+          <include name="testLangChangeEnglishToChinese"/>
           <include name="setUp"/>
           <include name="cleanUp"/>
+          <include name="testSearch"/>
         </methods>
-      </class> <!-- testcases.TestProviderligInPage -->
+      </class> <!-- testcases.TestHomePage -->
     </classes>
   </test> <!-- Health First Home(failed) -->
 </suite> <!-- Failed suite [Health First Automation test] -->

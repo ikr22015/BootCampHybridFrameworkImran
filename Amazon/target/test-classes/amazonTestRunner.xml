@@ -13,6 +13,7 @@
 
     <test name = "Amazon.com">
         <classes>
+            <class name="testcases.TestHomePage"/>
         </classes>
     </test>
 

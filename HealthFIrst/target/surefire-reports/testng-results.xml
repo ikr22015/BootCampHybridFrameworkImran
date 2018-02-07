@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Health First Automation test" duration-ms="22363" started-at="2018-02-04T00:38:12Z" finished-at="2018-02-04T00:38:34Z">
+  <suite name="Health First Automation test" duration-ms="29071" started-at="2018-02-06T22:24:42Z" finished-at="2018-02-06T22:25:11Z">
     <groups>
     </groups>
-    <test name="Health First Home" duration-ms="22363" started-at="2018-02-04T00:38:12Z" finished-at="2018-02-04T00:38:34Z">
+    <test name="Health First Home" duration-ms="29071" started-at="2018-02-06T22:24:42Z" finished-at="2018-02-06T22:25:11Z">
       <class name="testcases.TestHomePage">
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@6276ae34]" name="setUp" is-config="true" duration-ms="12267" started-at="2018-02-03T19:38:12Z" finished-at="2018-02-03T19:38:24Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@66d2e7d9]" name="setUp" is-config="true" duration-ms="13547" started-at="2018-02-06T17:24:42Z" finished-at="2018-02-06T17:24:55Z">
           <params>
             <param index="0">
               <value>
@@ -48,15 +48,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLangChangeEnglishToChinese()[pri:0, instance:testcases.TestHomePage@6276ae34]" name="testLangChangeEnglishToChinese" duration-ms="477" started-at="2018-02-03T19:38:24Z" finished-at="2018-02-03T19:38:24Z">
+        <test-method status="PASS" signature="testLangChangeEnglishToChinese()[pri:0, instance:testcases.TestHomePage@66d2e7d9]" name="testLangChangeEnglishToChinese" duration-ms="479" started-at="2018-02-06T17:24:55Z" finished-at="2018-02-06T17:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLangChangeEnglishToChinese -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:testcases.TestHomePage@6276ae34]" name="cleanUp" is-config="true" duration-ms="120" started-at="2018-02-03T19:38:24Z" finished-at="2018-02-03T19:38:24Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:testcases.TestHomePage@66d2e7d9]" name="cleanUp" is-config="true" duration-ms="136" started-at="2018-02-06T17:24:56Z" finished-at="2018-02-06T17:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@6276ae34]" name="setUp" is-config="true" duration-ms="6823" started-at="2018-02-03T19:38:24Z" finished-at="2018-02-03T19:38:31Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@66d2e7d9]" name="setUp" is-config="true" duration-ms="12720" started-at="2018-02-06T17:24:56Z" finished-at="2018-02-06T17:25:09Z">
           <params>
             <param index="0">
               <value>
@@ -97,11 +97,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testSearch()[pri:0, instance:testcases.TestHomePage@6276ae34]" name="testSearch" duration-ms="2518" started-at="2018-02-03T19:38:31Z" finished-at="2018-02-03T19:38:34Z">
+        <test-method status="PASS" signature="testSearch()[pri:0, instance:testcases.TestHomePage@66d2e7d9]" name="testSearch" duration-ms="2042" started-at="2018-02-06T17:25:09Z" finished-at="2018-02-06T17:25:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearch -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:testcases.TestHomePage@6276ae34]" name="cleanUp" is-config="true" duration-ms="106" started-at="2018-02-03T19:38:34Z" finished-at="2018-02-03T19:38:34Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:testcases.TestHomePage@66d2e7d9]" name="cleanUp" is-config="true" duration-ms="95" started-at="2018-02-06T17:25:11Z" finished-at="2018-02-06T17:25:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->

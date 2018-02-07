@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/ESPN/ESPN.iml" filepath="$PROJECT_DIR$/ESPN/ESPN.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generic/Generic.iml" filepath="$PROJECT_DIR$/Generic/Generic.iml" />
       <module fileurl="file://$PROJECT_DIR$/HealthFIrst/HealthFIrst.iml" filepath="$PROJECT_DIR$/HealthFIrst/HealthFIrst.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RestAPI/RestAPI.iml" filepath="$PROJECT_DIR$/RestAPI/RestAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/eBay/eBay.iml" filepath="$PROJECT_DIR$/eBay/eBay.iml" />
     </modules>
   </component>

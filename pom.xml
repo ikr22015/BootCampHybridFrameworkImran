@@ -15,6 +15,7 @@
         <module>eBay</module>
         <module>ESPN</module>
         <module>Amazon</module>
+        <module>RestAPI</module>
     </modules>
 
     <dependencyManagement>
@@ -58,6 +59,11 @@
                 <groupId>com.google.apis</groupId>
                 <artifactId>google-api-services-sheets</artifactId>
                 <version>v4-rev483-1.22.0</version>
+            </dependency>
+            <dependency>
+                <groupId>io.rest-assured</groupId>
+                <artifactId>rest-assured</artifactId>
+                <version>3.0.3</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

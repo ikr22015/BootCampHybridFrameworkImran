@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="eBay test" duration-ms="10623" started-at="2018-01-27T04:01:05Z" finished-at="2018-01-27T04:01:15Z">
+  <suite name="eBay test" duration-ms="8934" started-at="2018-02-06T22:25:15Z" finished-at="2018-02-06T22:25:24Z">
     <groups>
     </groups>
-    <test name="eBay Home Page" duration-ms="10623" started-at="2018-01-27T04:01:05Z" finished-at="2018-01-27T04:01:15Z">
-      <class name="eBayTestHomePage.TestLogin">
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:eBayTestHomePage.TestLogin@6276ae34]" name="setUp" is-config="true" duration-ms="6244" started-at="2018-01-26T23:01:05Z" finished-at="2018-01-26T23:01:11Z">
+    <test name="eBay Home Page" duration-ms="8934" started-at="2018-02-06T22:25:15Z" finished-at="2018-02-06T22:25:24Z">
+      <class name="eBayTestHomePage.TestHomePage">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:eBayTestHomePage.TestHomePage@1efbd816]" name="setUp" is-config="true" duration-ms="5006" started-at="2018-02-06T17:25:15Z" finished-at="2018-02-06T17:25:20Z">
           <params>
             <param index="0">
               <value>
@@ -48,15 +48,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ee()[pri:0, instance:eBayTestHomePage.TestLogin@6276ae34]" name="ee" duration-ms="4135" started-at="2018-01-26T23:01:11Z" finished-at="2018-01-26T23:01:15Z">
+        <test-method status="PASS" signature="testSearch()[pri:0, instance:eBayTestHomePage.TestHomePage@1efbd816]" name="testSearch" duration-ms="3783" started-at="2018-02-06T17:25:20Z" finished-at="2018-02-06T17:25:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ee -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:eBayTestHomePage.TestLogin@6276ae34]" name="cleanUp" is-config="true" duration-ms="221" started-at="2018-01-26T23:01:15Z" finished-at="2018-01-26T23:01:15Z">
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:eBayTestHomePage.TestHomePage@1efbd816]" name="cleanUp" is-config="true" duration-ms="127" started-at="2018-02-06T17:25:24Z" finished-at="2018-02-06T17:25:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-      </class> <!-- eBayTestHomePage.TestLogin -->
+      </class> <!-- eBayTestHomePage.TestHomePage -->
     </test> <!-- eBay Home Page -->
   </suite> <!-- eBay test -->
 </testng-results>

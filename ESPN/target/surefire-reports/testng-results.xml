@@ -2,10 +2,10 @@
 <testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="ESPN test" duration-ms="5" started-at="2018-01-27T20:36:13Z" finished-at="2018-01-27T20:36:13Z">
+  <suite name="ESPN test" duration-ms="9" started-at="2018-02-06T22:25:26Z" finished-at="2018-02-06T22:25:26Z">
     <groups>
     </groups>
-    <test name="ESPN Automation" duration-ms="5" started-at="2018-01-27T20:36:13Z" finished-at="2018-01-27T20:36:13Z">
+    <test name="ESPN Automation" duration-ms="9" started-at="2018-02-06T22:25:26Z" finished-at="2018-02-06T22:25:26Z">
     </test> <!-- ESPN Automation -->
   </suite> <!-- ESPN test -->
 </testng-results>
