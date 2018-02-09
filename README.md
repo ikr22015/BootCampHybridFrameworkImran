@@ -1,6 +1,6 @@
 # BootCamp January 2017
 
-**Framework features I covered:**
+**Hybrid framework features I covered:**
   - Run test cases locally.
   - Run test cases from cloud. Env == browserstack.
   - Hooked github with Jenkins server to fetch code from CI.
